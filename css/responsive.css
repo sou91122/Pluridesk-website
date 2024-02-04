@@ -1,0 +1,401 @@
+@media(min-width:1200px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .navbar .navbar-brand svg {
+        width: 205px;
+    }
+
+    header.fixed .navbar .navbar-brand svg{
+        width:185px;
+    }
+}
+
+@media(min-width:992px) {
+    header .nav-link {
+        color: #ffffff;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 15px 18px;
+    }
+
+    .navbar .form-inline .login-btn {
+        border: 2px solid #008f8d;
+        background-color: transparent;
+    }
+}
+
+@media (max-width:1201px) {
+    header .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .navbar .form-inline .btn {
+        padding: 5px 15px;
+        font-size: 1.3rem;
+    }
+
+    #banner .banner-img .banner-content h3 {
+        font-size: 2.8rem;
+    }
+
+    #testimonial-area .testimonial-area-content .item-box .img-area {
+        right: 8px;
+        bottom: 8px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #testimonial-area .testimonial-area-content .item-box .img-area img {
+        width: 20px;
+    }
+
+    footer {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width:991px) {
+    header .navbar-expand-lg .navbar-nav .highlight .nav-link {
+        background-color: transparent;
+        color: #000000;
+        padding: 5px 0;
+        margin: 0;
+    }
+    .navbar{
+        padding-right: 10px;
+    }
+    #banner .banner-content{
+        width:100%;
+        text-align: center;
+    }
+    #banner .banner-content h3{
+        font-size: 3rem;
+    }
+
+    #banner .banner-img {
+        height: 850px;
+    }
+
+    #banner .banner-img img {
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    #banner .banner-img::before {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: '';
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        opacity: 0.1;
+    }
+
+    #banner .banner-img .banner-content .banner-form .explore-btn {
+        height: 50px;
+    }
+
+    #who-we-are .who-we-are-text {
+        margin-top: 40px;
+    }
+
+    #services-page .service-block .text-area{
+        margin-top: 30px;
+    }
+
+    #product-details .product-description .image-area{
+        margin-bottom: 20px;
+    }
+
+    #contact-us .contact-details .contact-detail-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #about-page .about-us-content{
+        margin-top: 30px;
+    }
+
+    footer .footer-links-area ul li {
+        padding-right: 20px;
+    }
+
+    footer .footer-about-area {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:991px) and (min-width:767px) {
+
+    #about .small-about-section .small-about-section-block {
+        padding: 15px;
+    }
+
+    #about .small-about-section .small-about-section-block h5 {
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+
+    #about .small-about-section .small-about-section-block p,
+    #about .small-about-section .small-about-section-block a {
+        font-size: 1.3rem;
+    }
+
+    #about .small-about-section .small-about-section-block .img-area {
+        width: 50px;
+        height: 50px;
+    }
+
+    #about .small-about-section .small-about-section-block .img-area img {
+        width: 30px;
+    }
+
+}
+
+
+@media (max-width:767px) {
+    #banner .banner-content{
+        padding:  0 100px;
+    }
+    #banner .banner-content h3{
+        font-size: 2rem;
+    }
+    #banner .banner-content p{
+        font-size: 1.3rem;
+    }
+    #banner .banner-content .banner-form .explore-btn {
+        height: 40px;
+        padding: 10px 20px;
+        font-size: 1.3rem;
+    }
+
+    #about .small-about-section .small-about-section-block {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    #who-we-are .who-we-are-text h2 {
+        font-size: 2.2rem;
+    }
+    #services-page .service-block .img-area svg{
+        width:100px;
+    }
+    #about-page .about-us-content ul li{
+        display: block;
+        margin-right: 0;
+    }
+    #about-page .about-description .description-block{
+        padding: 15px;
+    }
+    #about-page .about-description .description-block h3{
+        font-size: 2rem;
+    }
+
+    footer .footer-links-area ul li {
+        margin-bottom: 8px;
+    }
+
+    footer .social-icon-area {
+        text-align: left;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 576px) {
+    p {
+        font-size: 1.3rem!important;
+    }
+
+    .btn {
+        font-size: 1.2rem!important;
+    }
+    .section-heading h2{
+        font-size: 2.2rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 40px;
+        height: 40px;
+        background-size: 30% 30%;
+    }
+    #banner .banner-content{
+        padding: 0 30px;
+    }
+    #banner .carousel-item{
+        height:500px;
+    }
+    #banner .carousel-item img{
+        height:100%;
+        object-fit: cover;
+    }
+
+    #banner .banner-img .banner-content {
+        top: 52%;
+    }
+
+    #banner .banner-img .banner-content h3 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    #banner .banner-img .banner-content p {
+        margin-bottom: 10px;
+    }
+
+    #banner .banner-img .banner-content .banner-form input {
+        font-size: 1.2rem;
+    }
+
+    #banner .banner-img .banner-content .banner-form .explore-btn {
+        height: 40px;
+        margin: 10px 0 25px;
+    }
+
+    #banner .banner-content .form-area {
+        padding: 25px 20px;
+    }
+
+    #services .service-box h5{
+        font-size: 2rem;
+    }
+
+    #about .small-about-section .small-about-section-block h5 {
+        font-size: 2rem;
+    }
+
+    #about .small-about-section .small-about-section-block .img-area {
+        right: 10px;
+        top: 10px;
+        width: 75px;
+        height: 75px;
+    }
+
+    #about .small-about-section .small-about-section-block .img-area img {
+        width: 38px;
+    }
+
+    #about .small-about-section .small-about-section-block a {
+        font-size: 1.3rem;
+    }
+
+    #who-we-are .who-we-are-text .featured-box h2,
+    #about .about-heading h2,
+    #testimonial-area .testimonial-heading h2 {
+        font-size: 2rem;
+    }
+
+    #who-we-are .who-we-are-text .featured-box ul li {
+        font-size: 1.3rem;
+    }
+    #about-page .about-us-content h2{
+        font-size: 2.4rem;
+    }
+
+
+    #testimonial-area .testimonial-area-content .testimonial-text p {
+        font-size: 1.3rem;
+    }
+
+    #testimonial-area .testimonial-area-content .item {
+        padding: 8px;
+    }
+
+    #testimonial-area .testimonial-area-content .item-box .img-area {
+        animation: none;
+        right: 5px;
+        bottom: -20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #testimonial-area .testimonial-area-content .item-box .img-area img {
+        width: 20px;
+    }
+
+
+    #testimonial-area .testimonial-area-content .item-box {
+        padding: 15px;
+    }
+
+    #testimonial-area .testimonial-area-content .author-name p {
+        font-size: 1.4rem;
+    }
+
+    #testimonial-area .testimonial-area-content .author-img img {
+        width: 50px;
+    }
+
+    #testimonial-area .testimonial-area-content .author-name span {
+        font-size: 1.3rem;
+    }
+
+    #inner-top{
+        padding: 80px 0;
+    }
+    #inner-top h3{
+        font-size: 4.5rem;
+    }
+
+    #product-details h5{
+        font-size: 2rem;
+    }
+
+    #product-details .product-feature{
+        padding: 15px;
+    }
+    
+    #product-details .product-feature li{
+        font-size: 1.3rem;
+    }
+
+    #contact-us .contact-form .form-area{
+        padding: 20px;
+    }
+    #contact-us .contact-details .contact-detail-box h4{
+        font-size: 2rem;
+        margin: 20px 0 15px;
+    }
+    #contact-us .contact-details .contact-detail-box a, #contact-us .contact-details .contact-detail-box p{
+        font-size: 1.3rem;
+    }
+    #faq .faq-content-block h3{
+        font-size: 1.7rem;
+    }
+    #services-page .service-heading h2{
+        font-size: 2.5rem;
+    }
+    #services-page .service-block .text-area h5{
+        font-size: 2rem;
+    }
+
+    #services-page .service-block .text-area ul li,
+    #services-page .service-block .product-feature li{
+        font-size: 1.3rem;
+    }
+    
+    #services-page .service-block .product-feature{
+        padding: 17px;
+    }
+
+    footer .footer-links-area ul li a,
+    footer .footer-contact-area p,
+    footer .footer-contact-area a {
+        font-size: 1.3rem;
+    }
+
+    footer .social-icon-area ul li a {
+        font-size: 2rem;
+    }
+
+    footer .footer-copyright-area p,
+    footer .footer-copyright-area p a {
+        font-size: 1.2rem;
+    }
+}
